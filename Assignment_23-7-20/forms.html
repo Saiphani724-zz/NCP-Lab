@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Form</title>
+</head>
+
+<body align="center">
+
+	<table>
+		<form>
+			<br></br>
+			<tr>
+				<td><label for="name">* Name</label></td>
+				<td><input type="text" id="name" placeholder="Enter your name" required></td>
+			</tr>
+			<tr><td><br></td></tr>
+			<tr>
+				<td><label for="email">* Email</label></td>
+				<td><input type="text" id="email" placeholder="Enter your Email" required></td>
+				
+			</tr>
+			<tr><td><br></td></tr>
+			<tr>
+				<td><label for="age">* Age</label></td>
+				<td><input type="number" id="age" placeholder="Age" required></td>
+			</tr>
+			<tr><td><br></td></tr>
+			<tr>
+				<td><label>What is your role ?</label></td>
+				<td><select id="role" name="role">
+						<option value="student">Student</option>
+						<option value="faculty">Faculty</option>
+						<option value="employee">Employee</option>
+				</td>
+				</select>
+			</tr>
+			<tr><td><br></td></tr>
+
+			<tr>
+				<td><label>How likely is that you would recomend aums for amrita quiz ?</label></td>
+				<td><input type="radio" name="rating" value="3">Definely<br>
+					<input type="radio" name="rating" value="2"> Maybe<br>
+					<input type="radio" name="rating" value="1"> Not Sure<br></td>
+			</tr>
+
+			<tr><td><br></td></tr>
+
+
+
+			<tr>
+				<td><label>What do you like most in FCC ?</label></td>
+				<td><select id="opinion" name="opinion">
+						<option value="opinion">Select an option</option>
+						<option value="opinion">Option 1</option>
+						<option value="opinion">Option 2</option>
+						<option value="opinion">Option 3</option>
+					</select></td>
+				</select>
+			</tr>
+			<tr><td><br></td></tr>
+
+			<tr>
+				<td><label>What are the things you should improve in future ?</label></td>
+				<td>
+					<input type="checkbox" name="toImprove" value="frontend"> frontend<br>
+					<input type="checkbox" name="toImprove" value="backend"> backend<br>
+					<input type="checkbox" name="toImprove" value="datavis"> datavis</td>
+			</tr>
+			<tr><td><br></td></tr>
+			<tr>
+				<td><button action="submit">Submit</button> </td>
+			</tr>
+		</form>
+
+	</table>
+</body>
+
+</html>
